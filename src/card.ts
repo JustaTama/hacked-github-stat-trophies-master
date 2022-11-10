@@ -50,7 +50,7 @@ export class Card {
     let wantAllSuperRank = true;
     let wantLongTimeAccount = true;
     let wantAncientAccount = true;
-    let wantJoined2020 = true;
+    let wantJoined2020 = false;
 
     if (wantAllSuperRank) { trophyList.push(new AllSuperRankTrophy(1)); } 
     else { trophyList.push(new AllSuperRankTrophy(isAllSRank)); }
