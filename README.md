@@ -9,7 +9,7 @@ If you want to configure which trophies you automatically get, configure these b
 let wantAllSuperRank = true;
 let wantLongTimeAccount = true;
 let wantAncientAccount = true;
-let wantJoined2020 = true;
+let wantJoined2020 = false;
 ```
 If you want to disable automatically getting the "MultipleLang" secret trophy, change this boolean to false in [src/trophies.ts](https://github.com/JustaTama/hacked-github-stat-trophies-master/blob/main/src/card.ts):
 ```
